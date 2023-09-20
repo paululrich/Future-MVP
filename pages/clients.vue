@@ -22,7 +22,7 @@
 />
 <Spielerkarte
   bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
-  name="test"
+  name="Patrick Mahomes"
   teamPosition="test"
   university="test"
   instagramLink="test"
