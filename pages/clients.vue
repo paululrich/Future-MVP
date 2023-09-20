@@ -21,15 +21,15 @@
   instagramLink="https://www.instagram.com/joeyb_9/"
 />
 <Spielerkarte
-  bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
-  name="Patrick Mahomes"
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038941.png&w=350&h=254"
+  name="Justin Herbert"
   teamPosition="test"
   university="test"
   instagramLink="test"
 />
 <Spielerkarte
-  bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
-  name="test"
+  bildUrl="https://img.donaukurier.de/ezplatform/images/_aliases/detail_teaser_item_image_variation/0/8/7/1/24351780-1-ger-DE/4363404_normal_RC2nMMUfcQ.jpg"
+  name="Jusuf Elshani"
   teamPosition="test"
   university="test"
   instagramLink="test"
