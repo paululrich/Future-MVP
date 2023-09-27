@@ -102,7 +102,7 @@
 
 <!--CSS-->>
 
-<style>
+<style scoped>
 
 * {
   box-sizing: border-box;
