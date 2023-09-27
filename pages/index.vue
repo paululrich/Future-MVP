@@ -4,7 +4,6 @@
   <img src="https://2kolf.com/wp-content/uploads/2020/10/nfl-sunday-ticket-banner-S20.jpg" 
   alt="Picture">
 
-
   <span style="font-size:35px;cursor:pointer;float:right" @click="openNav()">&#9776;</span> 
   <div id="mySidenav" class="sidenav">
     <nav>
@@ -20,60 +19,78 @@
 <h2 style="font-size:50px;">Future MVP</h2>
 
 <br> 
-  <p text-align: center; color:rgb(15, 10, 9); style="font-size:30px">   
+  <p align="center" style="font-size:30px">   
 
-    Welcome to Future MVP, where dreams take flight and champions are born. 
-    Our mission is to unearth extraordinary talent, sculpt it into greatness, and guide it 
-    towards the pinnacle of success in the NFL
+    <b>Welcome to Future MVP, where dreams take flight <br> and champions are born. 
+    Our mission is to unearth extraordinary talent, <br> sculpt it into greatness, and guide it 
+    towards the pinnacle of success in the NFL.</b>
   </p> 
 
-<br> 
-  <p style="font-size:15px;position:relative; left:80px; top:120px">
-    Chris Jones new one-year deal with Chiefs <br> worth up to $25 million. Sep 2023 
-    <b><a  href="https://www.nfl.com/news/chris-jones-new-one-year-deal-with-chiefs-worth-up-to-25-million-kansas-city-has">NFl</a></b>
-  </p>         
-  <p style="font-size:15px;position:relative; right:140px; top:320px">49ers Nick Bosa ends holdout with record<br> $170m contract extension. Sep 2023 <b><a href="https://www.theguardian.com/sport/2023/sep/06/nick-bosa-contract-san-francisco-49ers-record">The Guardian</a></b></p>
-  <p style="font-size:15px;position:relative; left:340px; top:220px">LA Chargers QB Justin Herbert <br>signs 
-    NFL record deal. Jul 2023 <b><a href="https://www.dazn.com/en-US/news/football/la-chargers-qb-justin-herbert-signs-nfl-record-deal/14i4qa89m57na1d4p1kw8s1hgm">DAZN</a></b></p>
-  <p style="font-size:15px;position:relative; right:40px; top:320px">Joe Burrow contract structure emerges with huge <br>guarantees and eye-catching incentives. Sep 2023 <b><a href="https://www.mirror.co.uk/sport/other-sports/american-sports/joe-burrow-contract-cincinnati-bengals-30916746#google_vignette">The Mirror</a></b></p>
+  <br>
+<br>
+
+  <h2 style="font-size:35px;">NEWS</h2>
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container">
-  <a  href="https://www.nfl.com/news/chris-jones-new-one-year-deal-with-chiefs-worth-up-to-25-million-kansas-city-has"><img src="https://cdn.vox-cdn.com/thumbor/VjCJlATlrAAmC9ZPw_FF71bt_sc=/0x0:4966x3311/1200x800/filters:focal(2042x772:2836x1566)/cdn.vox-cdn.com/uploads/chorus_image/image/72485160/usa_today_16601357.0.jpg" alt="Chris Jones" class="image"></a>
+  <div class="row">
+  <div class="column">
+    <a  target="_blank" href="https://www.nfl.com/news/chris-jones-new-one-year-deal-with-chiefs-worth-up-to-25-million-kansas-city-has">
+    <img src="https://cdn.vox-cdn.com/thumbor/VjCJlATlrAAmC9ZPw_FF71bt_sc=/0x0:4966x3311/1200x800/filters:focal(2042x772:2836x1566)/cdn.vox-cdn.com/uploads/chorus_image/image/72485160/usa_today_16601357.0.jpg" 
+    alt="Chris Jones" @click="myFunction('Chris Jones', 'https://cdn.vox-cdn.com/thumbor/VjCJlATlrAAmC9ZPw_FF71bt_sc=/0x0:4966x3311/1200x800/filters:focal(2042x772:2836x1566)/cdn.vox-cdn.com/uploads/chorus_image/image/72485160/usa_today_16601357.0.jpg');"></a>
+    <div class="overlay">
+    <div class="text"><b>Chris Jones new one-year deal with Chiefs <br> worth up to $25 million. Sep 2023</b></div>
+  </div>
+  </div>
+
+
+  <div class="column">
+    <a target="_blank" href="https://www.theguardian.com/sport/2023/sep/06/nick-bosa-contract-san-francisco-49ers-record">
+    <img src="https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg" 
+    alt="Nick Bosa" @click="myFunction('Nick Bosa', 'https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg');"></a>
+    <div class="overlay">
+    <div class="text"><b>49ers Nick Bosa ends holdout with record<br> $170m contract extension. Sep 2023</b> </div>
+  </div>
+  </div>
+
+
+  <div class="column">
+    <a  target="_blank" href="https://www.dazn.com/en-US/news/football/la-chargers-qb-justin-herbert-signs-nfl-record-deal/14i4qa89m57na1d4p1kw8s1hgm">
+    <img src="https://images.sportschau.de/image/3b3df382-be59-4e81-8e25-65f3762f6cfa/AAABiZHokfw/AAABibBxrfI/16x9-1920/justin-herbert-102.jpg" 
+    alt="Justin Herbert" @click="myFunction('Justin Herbert', 'https://images.sportschau.de/image/3b3df382-be59-4e81-8e25-65f3762f6cfa/AAABiZHokfw/AAABibBxrfI/16x9-1920/justin-herbert-102.jpg');"></a>
+    <div class="overlay">
+    <div class="text"><b>LA Chargers QB Justin Herbert <br>signs NFL record deal. Jul 2023 </b></div>
+  </div>
+  </div>
+
+
+  <div class="column">
+    <a  target="_blank" href="https://www.mirror.co.uk/sport/other-sports/american-sports/joe-burrow-contract-cincinnati-bengals-30916746#google_vignette">
+    <img src="https://on3static.com/cdn-cgi/image/height=417,width=795,quality=90,fit=cover,gravity=0.5x0.5/uploads/dev/assets/cms/2023/09/17215449/joe-burrow.jpg" 
+    alt="Joe Burrow" @click="myFunction('Joe Burrow', 'https://on3static.com/cdn-cgi/image/height=417,width=795,quality=90,fit=cover,gravity=0.5x0.5/uploads/dev/assets/cms/2023/09/17215449/joe-burrow.jpg');">
+  </a></div>
   <div class="overlay">
-    <div class="text">Chris Jones new one-year deal with Chiefs <br> worth up to $25 million. Sep 2023</div>
+    <div class="text"><b>Joe Burrow contract structure emerges with huge
+     guarantees and eye-catching incentives. Sep 2023</b> </div>
   </div>
-  </div>
+</div>
 
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
   
-  <br>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container">
-  <a  href="https://www.theguardian.com/sport/2023/sep/06/nick-bosa-contract-san-francisco-49ers-record"><img src="https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg" alt="Nick Bosa" class="image"></a>
-  <div class="overlay">
-    <div class="text">49ers Nick Bosa ends holdout with record<br> $170m contract extension. Sep 2023 </div>
-  </div>
-  </div>
+  
 
-  <br>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container">
-  <a  href="https://www.dazn.com/en-US/news/football/la-chargers-qb-justin-herbert-signs-nfl-record-deal/14i4qa89m57na1d4p1kw8s1hgm">
-    <img src="https://images.sportschau.de/image/3b3df382-be59-4e81-8e25-65f3762f6cfa/AAABiZHokfw/AAABibBxrfI/16x9-1920/justin-herbert-102.jpg" alt="Justin Herbert" class="image"></a>
-  <div class="overlay">
-    <div class="text">LA Chargers QB Justin Herbert <br>signs NFL record deal. Jul 2023 </div>
-  </div>
-  </div>
 
-  <br>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="container">
-  <a  href="https://www.theguardian.com/sport/2023/sep/06/nick-bosa-contract-san-francisco-49ers-record"><img src="https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg" alt="Nick Bosa" class="image"></a>
-  <div class="overlay">
-    <div class="text">49ers Nick Bosa ends holdout with record<br> $170m contract extension. Sep 2023 </div>
-  </div>
-  </div>
+
+
 
 </template>
 
@@ -83,94 +100,78 @@
 
 
 
-
 <!--CSS-->>
+
 <style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
 .container {
   position: relative;
-  width: 50%;
+  display: none;
 }
 
-.image {
-  opacity: 1;
-  display: block;
-  width: 50px;
-  height: 50px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+/* Expanding image text */
+#imgtext {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: transparent;
-  color: black;
-  font-size: 16px;
-  padding: 8px 32px;
-}
-
-
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+/* Closable button inside the expanded image */
+.closebtn {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
 
-.container:hover .middle {
-  opacity: 1;
-}
 
-.text {
-  background-color: transparent;
-  color: black;
-  font-size: 16px;
-  padding: 8px 32px;
-}
+
+
+
+
 
 
 
 img{width:100%;height:100%;}   
-
 
 
 
@@ -245,9 +246,7 @@ body {
 
 
 
-
 </style>
-
 
 
 
@@ -268,4 +267,15 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = 0
 }
+
+function myFunction(name, url) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = url;
+  imgText.innerHTML = name;
+  expandImg.parentElement.style.display = "block";
+}
+
+
 </script>
+
