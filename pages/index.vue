@@ -16,9 +16,15 @@
     </nav>
 </div>
 
-<h2 style="font-size:50px;">Future MVP</h2>
 
-<br> 
+
+
+<p>
+    <center>
+  <img  src="https://static.wixstatic.com/media/3a6766_1f1987fa77d64f5cadd722bce4fca4ab~mv2.jpg/v1/fill/w_410,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Future_MVP_Blk%20New-%20Desk%20top%20JPG_JPG.jpg" 
+  alt="Future MVP" align="center" style="width:400px;height:300px;"> </center></p>
+
+
   <p align="center" style="font-size:30px">   
 
     <b>Welcome to Future MVP, where dreams take flight <br> and champions are born. 
@@ -27,9 +33,10 @@
   </p> 
 
   <br>
+  
 <br>
 
-  <h2 style="font-size:35px;">NEWS</h2>
+  <h2 text-align="left" style="font-size:35px;">NEWS</h2>
 
 
   <div class="row">
@@ -175,6 +182,8 @@ img{width:100%;height:100%;}
 
 
 
+
+
 h2 {text-align: left; color:rgb(15, 10, 9); font-size:220%; font-size:10px}
 p {background-color: white;border-color: black;}
 a:link {
@@ -278,4 +287,3 @@ function myFunction(name, url) {
 
 
 </script>
-
