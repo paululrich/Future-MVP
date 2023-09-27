@@ -1,5 +1,8 @@
 <template>
-
+  <div class="navbar">
+      <h1 style="color:black; z-index: 1; flex-grow: 1;">About us</h1>
+      <span style="font-size:35px;cursor:pointer; padding-right: 30px;padding-top: 14px;" @click="openNav()">&#9776 </span>
+    </div>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a>
   <a href="/">Home</a>
@@ -10,7 +13,6 @@
   <a href="/contact">Contact</a>
 </div>
 
-<span style="font-size:35px;cursor:pointer;float:right" @click="openNav()">&#9776 </span>
 
 </template>
 
@@ -19,6 +21,16 @@
 body {
   font-family: "Lato", sans-serif;
 }
+    .navbar {
+      display: flex;
+      margin-top:-20px;
+      overflow: hidden;
+      background-color: #ebebeb;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    }
 
 .sidenav {
   height: 100%;

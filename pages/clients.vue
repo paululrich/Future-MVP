@@ -1,4 +1,8 @@
 <template>
+  <div class="navbar">
+      <h1 style="color:black; z-index: 1; flex-grow: 1;">Clients</h1>
+      <span style="font-size:35px;cursor:pointer; padding-right: 30px;padding-top: 14px;" @click="openNav()">&#9776 </span>
+    </div>
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" @click="closeNav()">&times;</a>
@@ -10,11 +14,10 @@
       <a href="/contact">Contact</a>
     </div>
     
-    <span style="font-size:35px;cursor:pointer;float:right" @click="openNav()">&#9776 </span>
-<div style="width:100%; display:flex; flex-wrap: wrap; gap: 20px;">
-  
-<Spielerkarte
-  bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
+    
+<div style="width:100%; display:flex; flex-wrap: wrap; gap: 20px; margin-top: 90px;">
+  <Spielerkarte
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915511.png&w=350&h=254"
   name="Joe Burrow"
   teamPosition="Quarterback, Cincinnati Bengals"
   university="Louisianna State University"
@@ -28,35 +31,53 @@
   instagramLink="https://www.instagram.com/justinherbert/"
 />
 <Spielerkarte
-  bildUrl="https://img.donaukurier.de/ezplatform/images/_aliases/detail_teaser_item_image_variation/0/8/7/1/24351780-1-ger-DE/4363404_normal_RC2nMMUfcQ.jpg"
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3044859.png"
   name="Chris Jones"
-  teamPosition="test"
-  university="test"
-  instagramLink="test"
+  teamPosition="Defensive Tackle, Kansas City Chiefs"
+  university="Bowling Green State University"
+  instagramLink="https://www.instagram.com/stonecoldjones95/"
 />
 <Spielerkarte
-  bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
-  name="test"
-  teamPosition="test"
-  university="test"
-  instagramLink="test"
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040605.png"
+  name="Nick Bosa"
+  teamPosition="Defensive End, San Francisco 49ers"
+  university="Ohio State University"
+  instagramLink="https://www.instagram.com/nbsmallerbear/?hl=de"
 />
 <Spielerkarte
-  bildUrl="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/bengals/wywob8gosfpknw5jsmdp"
-  name="test"
-  teamPosition="test"
-  university="test"
-  instagramLink="test"
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4262921.png"
+  name="Justin Jefferson"
+  teamPosition="Wide Receiver, Minnesota Vikings"
+  university="Louisiana State University"
+  instagramLink="https://www.instagram.com/jjettas2/"
+/>
+<Spielerkarte
+  bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045373.png"
+  name="Jalen Ramsey"
+  teamPosition="Cornerback, Miami Dolphins"
+  university="Florida State University"
+  instagramLink="https://www.instagram.com/jalenramsey/"
 />
 </div>    
     </template>
     
     
 <style>
+
+  
     body {
       font-family: "Lato", sans-serif;
     }
-    
+    .navbar {
+      display: flex;
+      margin-top:-20px;
+      overflow: hidden;
+      background-color: #ebebeb;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    }
     .sidenav {
       height: 100%;
       width: 0;
