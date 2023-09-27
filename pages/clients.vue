@@ -23,13 +23,13 @@
 <Spielerkarte
   bildUrl="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038941.png&w=350&h=254"
   name="Justin Herbert"
-  teamPosition="test"
-  university="test"
-  instagramLink="test"
+  teamPosition="Quarterback, Los Angeles Chargers"
+  university="University of Oregon"
+  instagramLink="https://www.instagram.com/justinherbert/"
 />
 <Spielerkarte
   bildUrl="https://img.donaukurier.de/ezplatform/images/_aliases/detail_teaser_item_image_variation/0/8/7/1/24351780-1-ger-DE/4363404_normal_RC2nMMUfcQ.jpg"
-  name="Jusuf Elshani"
+  name="Chris Jones"
   teamPosition="test"
   university="test"
   instagramLink="test"

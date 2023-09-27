@@ -6,13 +6,13 @@
   <h1>{{ name }}</h1>
   <p class="title">{{ teamPosition }}</p>
   <p>{{university}}</p>
-  <p><button><a :href="instagramLink"><img src="https://www.nicepng.com/png/detail/1-13041_logo-instagram-with-white-circle-background-png-new.png"></a></button></p>
+  <p><button><a :href="instagramLink">Instagram</a></button></p>
 </div>
     </template>
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -29,11 +29,22 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: black;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(213, 213, 213);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a {
