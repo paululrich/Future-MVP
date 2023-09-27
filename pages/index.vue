@@ -45,7 +45,7 @@
     <img src="https://cdn.vox-cdn.com/thumbor/VjCJlATlrAAmC9ZPw_FF71bt_sc=/0x0:4966x3311/1200x800/filters:focal(2042x772:2836x1566)/cdn.vox-cdn.com/uploads/chorus_image/image/72485160/usa_today_16601357.0.jpg" 
     alt="Chris Jones" @click="myFunction('Chris Jones', 'https://cdn.vox-cdn.com/thumbor/VjCJlATlrAAmC9ZPw_FF71bt_sc=/0x0:4966x3311/1200x800/filters:focal(2042x772:2836x1566)/cdn.vox-cdn.com/uploads/chorus_image/image/72485160/usa_today_16601357.0.jpg');"></a>
     <div class="overlay">
-    <div class="text"><b>Chris Jones new one-year deal with Chiefs <br> worth up to $25 million. Sep 2023</b></div>
+    <div class="text"><b>Chris Jones new one-year deal with Chiefs worth up to $25 million. Sep 2023</b></div>
   </div>
   </div>
 
@@ -55,7 +55,7 @@
     <img src="https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg" 
     alt="Nick Bosa" @click="myFunction('Nick Bosa', 'https://www.tipico.de/wett-tipps/wp-content/uploads/2023/09/nick-bosa-49-ers.jpg');"></a>
     <div class="overlay">
-    <div class="text"><b>49ers Nick Bosa ends holdout with record<br> $170m contract extension. Sep 2023</b> </div>
+    <div class="text"><b>49ers Nick Bosa ends holdout with record $170m contract extension. Sep 2023</b> </div>
   </div>
   </div>
 
@@ -65,7 +65,7 @@
     <img src="https://images.sportschau.de/image/3b3df382-be59-4e81-8e25-65f3762f6cfa/AAABiZHokfw/AAABibBxrfI/16x9-1920/justin-herbert-102.jpg" 
     alt="Justin Herbert" @click="myFunction('Justin Herbert', 'https://images.sportschau.de/image/3b3df382-be59-4e81-8e25-65f3762f6cfa/AAABiZHokfw/AAABibBxrfI/16x9-1920/justin-herbert-102.jpg');"></a>
     <div class="overlay">
-    <div class="text"><b>LA Chargers QB Justin Herbert <br>signs NFL record deal. Jul 2023 </b></div>
+    <div class="text"><b>LA Chargers QB Justin Herbert signs NFL record deal. Jul 2023 </b></div>
   </div>
   </div>
 
